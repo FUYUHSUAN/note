@@ -1,4 +1,4 @@
-#CH3
+# CH3
 * transmission media(wired,wireless)
 * wired -> copper,fiber,twisted pair,wireless ->radio
 * network equipment(switch,hub,router,gateway)
@@ -8,9 +8,9 @@
 * when switch has the routing ability,this switch is a layer3 equipment
 * routing(find a path from sourse to destination)
 
-###雙絞線倆倆相互捲絞在一起，主要原因，抵銷電磁干擾
+### 雙絞線倆倆相互捲絞在一起，主要原因，抵銷電磁干擾
 
-##網路傳輸設備
+## 網路傳輸設備
 * 數據機(modem):由Modulation 和Demodulation所組成
   * 功能:讓兩台遠端電腦彼此間數位(不適合遠距離傳送)，類比轉換和通訊的功能
 * 網路卡(NIC):屬於第二層的傳輸設備
