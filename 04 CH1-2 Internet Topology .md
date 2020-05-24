@@ -45,7 +45,7 @@
    * 可多人傳，但越多人傳，傳輸效能越差
    
    
- ## Ring topology(環型網路)
+ ## C.Ring topology(環型網路)
  * transfer method:
   * 誰擁有Token誰就可以傳，每傳一次，Token丟給下一個人
  * Advantage:
@@ -54,7 +54,7 @@
   * 貴(expensive)
   
 
-## Tree topology(樹狀網路)
+## D.Tree topology(樹狀網路)
 * ==>node to node only one transmition path.
 * ==>In the tree topology we can't see the loop.
 * e.g : our computer classroom(假設有50台電腦，但集線器上植有五十個孔，所以我們要運用兩台及限期將其串接完，形成樹狀)
@@ -62,7 +62,7 @@
 * 補:
  * loop topology :1.Advantage:robust good(任一條斷，還有其他可傳) 2.Disadvantage:Broadcast storm
 
-### Hybrid topology (混和式網路)
+### E.Hybrid topology (混和式網路)
 * two different type
 
  
