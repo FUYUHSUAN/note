@@ -1,7 +1,29 @@
-##通訊傳輸
+## 通訊傳輸
 * 單工傳輸
   * 單向傳輸
   * e.g:TV or radio
 * 全雙工傳輸
   * talk at the same time
   * send and receive at the same time 
+  * e.g:phone.
+* 半雙工傳輸
+ * ypu can send and receive .But you cannot do at the sametime.
+
+## 傳輸訊號(transmission signal)
+* Analog Signal(類比訊號)
+ * continuous digital
+ * 大自然多是類比訊號
+ * e.g: our voice,view
+* Digital Signal(數位訊號)
+ * discrete(獨立的)
+ * 電腦訊號大多為數位訊號
+ * e.g:mp3,jpg
+* The three factors for signal:
+ * 1.大小(Magnitude)
+   * is related to energy
+   * energy big =>transmission longer
+ * 2.頻率(Frequency)
+   * 每秒鐘震盪的次數(Hz)
+   * f越高,送出的資料越多,速度越快
+ * 3.相位(Phase)
+   * 
