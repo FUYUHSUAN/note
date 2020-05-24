@@ -2,7 +2,7 @@
 * (a)client/server(C/S模型) ==>基本的http架構
 * (b)peer to peer(p2p) ==>同時具有客戶端及伺服器端的角色
   * e.g: 網路芳玲
-*補充:Brower/Server模型 ==>B/S一定是C/S,C/S不一定是B/S.
+* 補充:Brower/Server模型 ==>B/S一定是C/S,C/S不一定是B/S.
 
 
 # OSI 七層參考模型
