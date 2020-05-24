@@ -60,7 +60,8 @@
     * 3.9G
       * wimax(失敗)
       * LTE 
-    * 4.5G-CA(carrier aggregation)==>仔波聚合ㄛ
+    * 4.5G-CA(carrier aggregation)==>載波聚合
+      * CA:合併一些通道，使傳輸速度更快 。e.g:2CA,3CA...支援多少CA越高速度越快
 
   
 
