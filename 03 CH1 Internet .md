@@ -13,5 +13,16 @@
     * 優 : 任何一台壞了都沒關係
     * 缺 : 得到的資訊非全面性
     * e.g: 現在Tnternet 多用此方法
+    
+ 
+ ## Internet 最初的主要功能
+ * 電子郵遞
+ * 遠端使用(Remote Login ; Talnet)
+  * 1.不加密 2.用 port:23
+  * 如今使用SSH 
+    * 加密
+    * port : 22 => in band(包括control & data 皆走同一通道)
+ * 
+   
 
 
