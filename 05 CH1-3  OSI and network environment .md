@@ -9,8 +9,8 @@
 * 由ISO訂定
 層級 | 對應架構
 -----|--------
-應用層(Application Layer7) | 人和機器重要介面(*非應用程式)/e.g:http
-呈現層(Presition Layer6) |  encoding,decoding/encryption,decryption/cowpression,decompression
+應用層(Application Layer7) | 人和機器重要介面(非應用程式)/ e.g:http
+呈現層(Presition Layer6)  |  encoding,decoding/encryption,decryption/cowpression,decompression
 會議層(Session Layer5) | 決定誰可以傳送資料
 傳輸層(Transport Layer4) | 
 學校科系 | [金門大學資訊工程系](https://www.nqu.edu.tw/educsie/index.php)
