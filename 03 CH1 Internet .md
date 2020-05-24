@@ -18,8 +18,8 @@
  ## Internet 最初的主要功能
  * 電子郵遞
  * 遠端使用(Remote Login ; Talnet)
-  * 1.不加密 2.用 port:23
-  * 如今使用SSH 
+   * 1.不加密 2.用 port:23
+   * 如今使用SSH 
      * 加密
      * port : 22 => in band(包括control & data 皆走同一通道)
  * 
