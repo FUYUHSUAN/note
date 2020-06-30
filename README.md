@@ -5,5 +5,4 @@
 學期 | 108 學年度下學期
 學生 |  傅于軒
 學校科系 | [金門大學資訊工程系](https://www.nqu.edu.tw/educsie/index.php)
-
-- 108下資訊網路|[資訊網路筆記](https://github.com/FUYUHSUAN/note/tree/108-2)
+108下資訊網路|[資訊網路筆記](https://github.com/FUYUHSUAN/note/tree/108-2)
