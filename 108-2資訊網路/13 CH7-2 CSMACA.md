@@ -6,3 +6,7 @@
 * 送出的時間是不公平的(occupied channel time(not fair))
 * 送大封包需要的頻寬較大
 * 當低速人進來來時，會降低整體吞吐量
+
+
+
+![](picture/CSMACA.png)
