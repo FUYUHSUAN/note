@@ -1,0 +1,23 @@
+- hosts: server1
+  tasks:
+    - name: install httpd server
+      yum: name=httpd state=present
+
+    - name: configure httpd server
+      copy: src=./httpd.conf dest=/etc/httpd/conf/httpd.conf
+      notify: restart httpd server
+
+    - name: start httpd server
+      service: name=httpd state=started enabled=yes
+
+    - name: Check httpd server
+      shell: ps aux|grep httpd
+      register: check_httpd
+    
+    - name: output variable
+      debug:
+        msg: "{{ check_httpd.stdout_lines }}"
+
+  handlers:
+    - name: restart httpd server
+      service: name=httpd state=restarted

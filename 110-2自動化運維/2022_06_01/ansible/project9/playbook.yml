@@ -1,0 +1,18 @@
+- hosts: server1
+  tasks:
+    - name: install memcached server
+      yum: name=memcached state=present
+    
+    - name: configure memcached server
+      template: src=./memcached.j2 dest=/etc/sysconfig/memcached
+ 
+    - name: service memcached server
+      service: name=memcached state=started enabled=yes
+
+    - name: check memcached server
+      shell: ps aux | grep memcached
+      register: check_mem
+
+    - name: debug memcached variables
+      debug:
+        msg: "{{ check_mem.stdout_lines }}"

@@ -1,0 +1,2 @@
+app1: wget
+app2: curl

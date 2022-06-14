@@ -1,0 +1,10 @@
+- hosts: server1
+  vars_files: ./vars_public.yml
+
+  tasks:
+    - name: install {{ app1 }} and {{ app2 }}
+      yum:
+        name:
+          - "{{ app1 }}"
+          - "{{ app2 }}"
+        state: present

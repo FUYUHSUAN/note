@@ -1,0 +1,15 @@
+- hosts: server1
+  tasks:
+    - name: install httpd server
+      yum: name=httpd state=present
+
+    - name: configure httpd server
+      copy: src=./httpd.conf dest=/etc/httpd/conf/httpd.conf
+      notify: restart httpd server
+
+    - name: start httpd server
+      service: name=httpd state=started enabled=yes
+
+  handlers:
+    - name: restart httpd server
+      service: name=httpd state=restarted

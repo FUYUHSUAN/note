@@ -1,0 +1,17 @@
+- hosts: 192.168.79.114
+  tasks:
+    - name: install {{ app1 }} and {{ app2 }}
+      yum:
+        name:
+          - "{{ app1 }}"
+          - "{{ app2 }}"
+        state: present
+
+- hosts: 192.168.79.115
+  tasks:
+    - name: install {{ app1 }} and {{ app2 }}
+      yum:
+        name:
+          - "{{ app1 }}"
+          - "{{ app2 }}"
+        state: present

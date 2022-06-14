@@ -25,7 +25,7 @@
 
 1. dhclient ens34 (LAN segment:a)
 
-2. ip route show
+2. ip route show 
 成功畫面
     ```
     [root@centos7-3 user]# ip route show
@@ -38,4 +38,4 @@
 
 
 tail -n 30 /var/log/messages
-netstat -tlunp | grep dhcp
+netstat -tunlp | grep dhcp
